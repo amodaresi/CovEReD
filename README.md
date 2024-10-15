@@ -63,7 +63,7 @@ In the aforementioned files, you can edit the following hyperparameters:
 - `T_SELFSIM` and `T_SELFSIM_UPPER`: Minimum and maximum entity mention similarity threshold
 - `T_CONTEXTSIM`: Minimum context similarity threshold
 
-*The `code/utils` folder includes files to load contriever, which are retrieved from:<br>`https://github.com/facebookresearch/contriever`*
+*The `code/utils` folder includes files to load contriever, which are retrieved from:<br>https://github.com/facebookresearch/contriever*
 
 ## Cite
 If you use the dataset, **CovEReD** pipeline, or code from this repository, please cite the paper:
