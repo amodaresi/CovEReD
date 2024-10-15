@@ -31,8 +31,18 @@ DatasetDict({
     })
 })
 ```
-The `train_mix` is the original training set combined with its counterfactual variation.
-We also included four extra training set variations (var-[06 07 08 09]) even though they have not been used in our paper's evaluations.
+The `train_mix` is the original training set combined with its counterfactual variation counterpart.
+We have also included four additional training set variations (var-[06, 07, 08, 09]), though they were not used in the evaluations presented in our paper.
+
+The properties `title`, `labels`, `vertexSet`, and `sents` are structured similarly to those in the original DocRED & Re-DocRED datasets:
+
+- `title`: Document title.
+- `labels`: List of relations. Each entry indicates the relation between a head and a tail entity, with some entries also specifying evidence sentences.
+- `vertexSet`: List of entity vertex sets. Each entry represents a vertex specifying all mentions of an entity by their position in the document, along with their type.
+- `sents`: Tokenized sentences.
+
+In examples that are counterfactually generated, the title includes a variation number. For example: `AirAsia Zest ### 1`.
+The `original_doc_id` denotes the index of the example in the original seed dataset, i.e., Re-DocRED.
 
 ## Counterfactual Generation
 To generate counterfactuals, you will first need to download the seed DocRE dataset.
