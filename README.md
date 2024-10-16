@@ -1,4 +1,4 @@
-# CovEReD &mdash; Counterfactual via Entity Replacement for DocRE
+# CovEReD &mdash; Counterfactuals via Entity Replacement for DocRE
 This repository contains the code and data associated with our paper, "[Consistent Document-Level Relation Extraction via Counterfactuals](https://www.arxiv.org/abs/2407.06699)", to be presented in the Findings of [EMNLP 2024](https://2024.emnlp.org/).
 
 ## Abstract
